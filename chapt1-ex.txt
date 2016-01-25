@@ -1,0 +1,20 @@
+Describe what happens if you omit the following in HelloWorld.java:
+1. public - Error: main method not public
+2. static - Error: exception in thread "main" java.lang.NoSuchMethodError: main
+3. void - Error: invalid method declaration; return type required
+4. args - Error: < identifer > expected
+
+Describe what happens if you misspell ( by, say, omitting the second letter ) the following in HelloWorld.java:
+1. public - <identifier> expected 
+2. static - invalid method declaration; return type required
+3. void - cannot find symbol
+4. args - Hello World!
+
+Describe what happens if you try to execute UseArgument with each of the following command lines:
+1. java UseArgument java - "Hi, java. How are you?"
+2. java UseArgument @!&^% - "bash: !: event not found"
+3. java UseArgument 1234 - "Hi, 1234. How are you?"
+4. java UseArgument.java Bob - "Exception in thread 'main' java.lang.NoClassDefFoundError: UseArgument/java"
+5. java UseArgument Alice Bob - "Hi, Alice. How are you?"
+
+Modify UseArgument.java to make a program UseThree.java that takes three names and prints out a proper sentence with the names in the reverse of the order given, so that, for example, java UseThree Alice Bob Carol, gives "Hi Carol, Bob, and Alice".

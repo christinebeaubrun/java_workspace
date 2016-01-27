@@ -1,0 +1,2 @@
+Question & Answer for Chapter 1.2 exercises
+1. Suppose that a and b are int values. What does the following sequence of statements do? "int t = a; b = t; a = b;"

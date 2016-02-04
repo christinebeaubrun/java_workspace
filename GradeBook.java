@@ -7,6 +7,12 @@ public class GradeBook
 {	
 	private String courseName; // course name for this GradeBook
 	
+	// constructor initializes courseName with String supplied as argument
+	public GradeBook( String name )
+	{
+		courseName = name; // initializes courseName
+	} // end constructor
+
 	// method to set the course name, void because it doesn't return a value
 	public void setCourseName( String name )
 	{
